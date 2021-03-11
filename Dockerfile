@@ -25,7 +25,6 @@ RUN apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install -y \
     curl \
     git \
     jq \
-    yq \
     xmlstarlet \
     openjdk-11-jdk \
     && rm -rf /var/lib/apt/lists/*
